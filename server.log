@@ -1,0 +1,167 @@
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/National-ID-Card-Of-Bangladesh.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\pytesseract\pytesseract.py", line 252, in run_tesseract
+    proc = subprocess.Popen(cmd_args, **subprocess_args())
+  File "C:\Users\nurud\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\nurud\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\server.py", line 39, in api_id_card_info
+    mrz = read_mrz(saved_path)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\mrz\image.py", line 355, in read_mrz
+    mrz = p.result
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\mrz\image.py", line 343, in result
+    return self['mrz_final']
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\util\pipeline.py", line 102, in __getitem__
+    self._compute(key)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\util\pipeline.py", line 109, in _compute
+    self._compute(d)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\util\pipeline.py", line 111, in _compute
+    results = self.components[cname](*inputs)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\mrz\image.py", line 212, in __call__
+    roi, text, mrz = self.box_to_mrz(b, img, img_small, scale_factor)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\mrz\image.py", line 242, in __call__
+    text = ocr(roi, extra_cmdline_params=self.extra_cmdline_params)
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\passporteye\util\ocr.py", line 48, in ocr
+    pytesseract.run_tesseract(input_file_name,
+  File "d:\works\flskai\newapi\flask-api-upload-image\venv\lib\site-packages\pytesseract\pytesseract.py", line 256, in run_tesseract
+    raise TesseractNotFoundError()
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/National-ID-Card-Of-Bangladesh.jpg
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/National-ID-Card-Of-Bangladesh.jpg
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/National-ID-Card-Of-Bangladesh.jpg
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/Italian-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/france-nid-back.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\server.py", line 54, in api_id_card_info
+    detector.setModelPath(PROJECT_HOME, 'models', "yolo.h5")
+TypeError: setModelPath() takes 2 positional arguments but 4 were given
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\imageai\Detection\__init__.py", line 376, in detectObjectsFromImage
+    cv2.imwrite(output_image_path, image_copy)
+cv2.error: OpenCV(4.5.5) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:730: error: (-2:Unspecified error) could not find a writer for the specified extension in function 'cv::imwrite_'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\server.py", line 56, in api_id_card_info
+    detections = detector.detectObjectsFromImage(input_image=saved_path, minimum_percentage_probability=30)
+  File "D:\works\flskAI\newAPI\flask-api-upload-image\envs\lib\site-packages\imageai\Detection\__init__.py", line 392, in detectObjectsFromImage
+    "Ensure you specified correct input image, input type, output type and/or output image path ")
+ValueError: Ensure you specified correct input image, input type, output type and/or output image path 
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/poland-id-card.png
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/uk-id-card.jpg
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/uk-id-card.jpg
+D:\works\flskAI\newAPI\flask-api-upload-image
+D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
+saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/uk-id-card.jpg
