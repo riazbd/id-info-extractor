@@ -1,0 +1,12 @@
+{
+    "name": "id-extractor",
+    "script": "server.py",
+    "args": "",
+    "log_type": "json",
+    "cwd": "/home/flskAI/id-info-extractor/",
+    "interpreter": "python",
+    "env": {
+      "PORT": 5555,
+      "CI": 1
+    }
+  }

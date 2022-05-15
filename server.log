@@ -165,3 +165,628 @@ saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/uk-id-card.jpg
 D:\works\flskAI\newAPI\flask-api-upload-image
 D:\works\flskAI\newAPI\flask-api-upload-image/uploads/
 saving D:\works\flskAI\newAPI\flask-api-upload-image/uploads/uk-id-card.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    if detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    if detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    #if detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/croatia_front.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 67, in api_id_card_info
+    if detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/5Eu9XWSP0vRxTSVUp0vJq5Lx5NyvKUw5LIHkuGha.png
+saving /home/flskAI/id-info-extractor/uploads/lN9pnbU44Zxh3kE5UTRB5sTtLHy351NgrccNsjJM.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/MBZfsexgjsAdd3z4GsREXCwwls9k5WHvjmSI8IdG.png
+saving /home/flskAI/id-info-extractor/uploads/d9pwIk89erF1oVM3G4UyYxKwneFuAFTc9HB4sL6A.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Slovak_back.jpg
+saving /home/flskAI/id-info-extractor/uploads/slovakia_front.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/portugal_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/portugal_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 122, in api_id_card_info
+    mrz_data
+TypeError: unhashable type: 'collections.OrderedDict'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_back.png
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_front_side.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 160, in api_id_card_info
+    mrz_data = mrz.to_dict()
+AttributeError: 'NoneType' object has no attribute 'to_dict'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_front_side.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 166, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data 'RT+10E' does not match format '%y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_front_side.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 169, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data 'RT+10E' does not match format '%y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/finnish_ID_card_front_side.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 169, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%Y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data 'RT+10E' does not match format '%Y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Belgian_back.png
+saving /home/flskAI/id-info-extractor/uploads/Belgian_front.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Belgian_back.png
+saving /home/flskAI/id-info-extractor/uploads/Belgian_front.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_back_side.jpg
+saving /home/flskAI/id-info-extractor/uploads/germany_ID_card_front_side.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_front_side.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 71, in api_id_card_info
+    if detections[0]["name"] and detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_front_side.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 71, in api_id_card_info
+    if detections[0]["name"] and detections[0]["name"] == 'person':
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_front_side.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 71, in api_id_card_info
+    if detections[0]["name"]:
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_front_side.png
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 73, in api_id_card_info
+    if detections[0]["name"]:
+IndexError: list index out of range
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/france_ID_card_front_side.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/romania_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/romania_ID_card_front_side.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/italy_ID_card_back_side.png
+saving /home/flskAI/id-info-extractor/uploads/italy_ID_card_front_side.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/croatia_front.jpg
+saving /home/flskAI/id-info-extractor/uploads/1528277944.perfect_20passport_front.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 101, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '510ENT' does not match format '%y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/croatia_front.jpg
+saving /home/flskAI/id-info-extractor/uploads/passport_uk2front.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 101, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '510ENT' does not match format '%y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/passport_uk2front.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/Holographic-Passport-Film.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 172, in api_id_card_info
+    dateOfBirth = datetime.strptime(dateOfBirth, '%y%m%d').strftime('%d/%m/%Y')
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/_strptime.py", line 359, in _strptime
+    (data_string, format))
+ValueError: time data '790030' does not match format '%y%m%d'
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/243148.JPG
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/passport_uk2front.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/passport_uk2front.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/austria_font.png
+saving /home/flskAI/id-info-extractor/uploads/1528277944.perfect_20passport_front.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/piUZpdJ5nLvJoXDJd6lQ4nCOcTC8U7VfcZDP0pP0.png
+saving /home/flskAI/id-info-extractor/uploads/MOjhqwxPaS544gpK009G7pfQLl8IMClQ8Wef86Cg.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/D61N6GXaV1D4G1iAjyhIEQf1XGTAeQW0yn3KoPf0.png
+saving /home/flskAI/id-info-extractor/uploads/D1W61fvJHdLpWPKRXWuuDl3fbABDofB3edV2DFxZ.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/WjnEnbqXAh54lgl6sOUatxFL7gdpf9rWqJoDU5Vc.png
+saving /home/flskAI/id-info-extractor/uploads/PSQAU1qqZZGYqDMSR6sw7wGzUdrgwqnrXBhb6SPz.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/txiRnl2iGZGNHrKV0oYbtxjLnWQnXTIZkDHAOYdd.png
+saving /home/flskAI/id-info-extractor/uploads/Jwv5rdF627VaKLRKA3rvFFvpPrsKDpCwRJ147b5I.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/DeeG6fVx1vjBk9y8HhzNXgzwKipTrOCl7OfqbF8y.png
+saving /home/flskAI/id-info-extractor/uploads/iRRrr5XhbHfvqfL9N3rECLj1UlQlz4sLAYqvLUZL.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/53oYP2pyH6lXa08aFwmQ5Fj6HS081UIGJPLVzm0J.png
+saving /home/flskAI/id-info-extractor/uploads/qOE6dxEwhVyg0c2XWgMAnRF1MumKgJav1WcBK9K9.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/W17xRaLO0YQwzm9Sarhr6rihDzsuOEzYzfIO7Pzw.png
+saving /home/flskAI/id-info-extractor/uploads/HYEjG91kw6mgOzithBAaKNWcQaiGcRJ0kOoZhDaG.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/aFygpfyJ1Vwere3Inx13dms9QcKWT6TZnT7IrzAE.png
+saving /home/flskAI/id-info-extractor/uploads/0g8BSQLid3oE8Urpepi3LU7VUYaCm2DcoHJzLwD9.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/VD2Wjt8GCijiPvGBQsrBHLsVaAHOml3BtKLi9rFQ.png
+saving /home/flskAI/id-info-extractor/uploads/mudx2JNc8hJ99IXMFCVjsu7GjenA4gn7vTvwrwjU.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/9vKkwYFlmvHPob2miygA3I4F7FsmdItZF8F5waw0.png
+saving /home/flskAI/id-info-extractor/uploads/Nt8llLyuboP3aWJG4ZrIeAa8CUyIy7JMPF16CYLs.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/u85a9t2ii1m9gJgLBakPMuiQb73Q3RP7d06W3I4h.png
+saving /home/flskAI/id-info-extractor/uploads/OzsssDzeZPK5Zh7JBKGwwOgAZg4y3X3Mnrf20KrZ.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/LA8ifNIYZ88jW2CZtYkCfcoZCnQitBFvVS26uzOq.png
+saving /home/flskAI/id-info-extractor/uploads/dIDGWB4rhH4LDSd2osH4FSytaE2pLHDzAJ4lUBJF.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/3uhroJmWXlDGvU2BZTAun7MBTWNtAXK4DAzAb3v8.png
+saving /home/flskAI/id-info-extractor/uploads/XImzrxw0lZf4SFgVl0pnS3nk12J2tDkqsfaigRyw.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/mSaoHA1WVn3znLI2ETR8mpoxnYYLmWnsgw8JdJwc.png
+saving /home/flskAI/id-info-extractor/uploads/IBuwm0FTqzwBnJttJUWmUrSAQBF2jyLetZfblvTj.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/wkOIWnnXRSjwuj3AHmYbVn6OwLiRDRLa1t63NBNJ.png
+saving /home/flskAI/id-info-extractor/uploads/2etKoTPgCw57ZjTxfGGRVsOxN7CTllYJWkltvPUD.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/ThnIc4J0Mp3bosCeFBdqOvGsExwwO72y8PkbVWKD.png
+saving /home/flskAI/id-info-extractor/uploads/F1wPoFUejz9B7YFmyj8kD00T1jO6boSbzpWHjBRE.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/MyreAsDboCpym6vypd6EICq2ard1VBvzEFp8D9Pf.png
+saving /home/flskAI/id-info-extractor/uploads/aZJVulVHs4fbrtNNXh5mJYgkxjWlMbIzPO4XObrA.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/cZd69dnZAZXDG9NZUuMOhokVMX7Qhkpg1cWXnLDC.png
+saving /home/flskAI/id-info-extractor/uploads/wIEIMfBEypDee0Imau1CMjmDkCGHOjYGLAEwsFDr.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/3aIIIJkY6g0ITOLMpOcxw3Jq9L6LPN6FpqyNeAzF.png
+saving /home/flskAI/id-info-extractor/uploads/mJnKiXpEVnT1nsK2ave1Lr4I2uc5Uu4xhywQnHC8.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/g9nmGkyLTlTMqnz2GxQyZz8GetagYGBWbEEPWLIq.jpg
+saving /home/flskAI/id-info-extractor/uploads/9UhP0OqbCXMUjk40gSKnbFwpCdH9K4zcejxeoy8N.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/2QE8A3pELWtv2pDmJUqXImZPRRzZibyQAbiXpOjw.png
+saving /home/flskAI/id-info-extractor/uploads/URocLbiuUU7DwkLh4KI4AgHsA8VElKh2bYfaXeMc.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/kn7KC2dsMYdaBsLIiHjFwunIjy7WI0dGvCZjXokY.jpg
+saving /home/flskAI/id-info-extractor/uploads/0mgf743nPKKgLMFGeMSagxP9qw8VcgKYtxvy8SQ5.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/4viTANwSFhK4JLWmHmbzjxZvyYcF9U52njxnJcDo.jpg
+saving /home/flskAI/id-info-extractor/uploads/uE3XEtgu0bWe9uB3egOgC4HvNsOA5o1w07ZESbBn.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/ctE4PgaiZZOs43rWJOaLEjP65GYJ7iOonOjElU7N.png
+saving /home/flskAI/id-info-extractor/uploads/mNxJLBKI4hL1aBY3bZp1GUnWY1H1eWCDvI1Ck0hA.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/HBiMk54ABLsCTd7FkcwmnPD9TyyGE8Ul3G4Q31N8.jpg
+saving /home/flskAI/id-info-extractor/uploads/t8bIoKURpYTdNErknr6p75rGwsDE9V0WxV4YOi1L.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/UPdvxJvIAGqD8Xhf3FORYvef6p45O8kkajG93U2y.png
+saving /home/flskAI/id-info-extractor/uploads/nqRc7ynnzh9pPLHBU5mZMT64PQeZeuFuK33qHJuN.png
