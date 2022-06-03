@@ -790,3 +790,194 @@ saving /home/flskAI/id-info-extractor/uploads/t8bIoKURpYTdNErknr6p75rGwsDE9V0WxV
 /home/flskAI/id-info-extractor/uploads/
 saving /home/flskAI/id-info-extractor/uploads/UPdvxJvIAGqD8Xhf3FORYvef6p45O8kkajG93U2y.png
 saving /home/flskAI/id-info-extractor/uploads/nqRc7ynnzh9pPLHBU5mZMT64PQeZeuFuK33qHJuN.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/qs70iqwx4wpdIgkfLUVKnA6q8n9841N2kLnw9inv.png
+saving /home/flskAI/id-info-extractor/uploads/pdXIM12f4EsJp5Vcd3eEltywTrbCL0GCsUF7RJvi.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Ia2ZhyX0UXA7wWw33GrByJXOvXKW3HHE9s7bZ13H.png
+saving /home/flskAI/id-info-extractor/uploads/KbAs9Px4vd301aW2NtLMVwf07fIm9RMfbGDz3j4a.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/py5ttbBf4jK5ZGDJAF6exYz42rAiUIAHa12Sbsc3.png
+saving /home/flskAI/id-info-extractor/uploads/J5FZOyFuap8nE1jr8ro5JjRy58RzU4kuEwEGJxk2.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/IzXJL6M0YAjY8QjJAj4YhZFiZOhCzuoRfXnQAvgE.png
+saving /home/flskAI/id-info-extractor/uploads/5oiI9axhbiUTMu0w5jxGmeBtuZS1l3xw6dYR9zOD.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Prxo9rR2a6bjO2rhQsYufh8DBeXQZh9v2KXMRhVh.jpg
+saving /home/flskAI/id-info-extractor/uploads/BLEedfk6R8Y7EvYsd3H0V8QjFL32j1pfd4gqbZF7.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/EkrZpaAANGp6ldVxsxxehjDvmsSeTBOssxTxNTgW.png
+saving /home/flskAI/id-info-extractor/uploads/e26T1dTEpScnj9qUO0k0GDRd6CkMJNLd9yRALFQ2.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/QrHsPGsW5pFzH3TmtzKN3vDmtfyS0OGkjwpmkDIT.png
+saving /home/flskAI/id-info-extractor/uploads/dBt0wm1yRMRKyAKZqVENFWmp2mAqUR1xh5vqp0Hc.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/tOksEmyAsKiayQ4f6ly0lfWzM90k5OQFkeW54N8c.png
+saving /home/flskAI/id-info-extractor/uploads/FWfz59eSmV2ZccNzXpNHYcLlKg5peeXlnfMX45GH.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/tKX49sIh7WopkkwrUhYGa9Seqt8sGFtCRDUgs1kS.jpg
+saving /home/flskAI/id-info-extractor/uploads/Kwf1pNgpESCzTMl0Sl5Wtii0IrWCAnB0bFmyOrvr.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    print(mrz_front)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/yPR5NzpnK1RTviI2Q71lIfIuc7Eq2sEByAaV8riL.png
+saving /home/flskAI/id-info-extractor/uploads/Xv2EycU6hNCv53dWY4t8vslYzSp0k3WjGweVMstc.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/zuStNrmTLUx0iDO8gHLMg4AKCtk0wcq2VwcM4xiE.jpg
+saving /home/flskAI/id-info-extractor/uploads/tg5OKTVn47ZGbxuFP3eytYsxMPm6MifYxGMUE5rC.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    print(mrz_front)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/pes0ifoihET2Hq6OJ4IkDRB7PlWw2XKosRv1NgR9.jpg
+saving /home/flskAI/id-info-extractor/uploads/i2TV3Yz06s6mDVRgZapx6y5tcJXYVitUmZYwMkJi.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    print(mrz_front)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/E8HJsUclvpj9bsreEN8VrbQk5FaaC2knYvdK4fJr.png
+saving /home/flskAI/id-info-extractor/uploads/AWWa7FEuJ6xaYhVhjLJ1UGD7M4ZO9DQBJtOJ870b.jpg
+Exception on /card-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 58, in api_id_card_info
+    print(mrz_front)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/grman-passport.jpg
+Exception on /passport-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 303, in api_passport_info
+    print(mrz)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/grman-passport.jpg
+Exception on /passport-info-extractor [POST]
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/idenvs/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flskAI/id-info-extractor/server.py", line 303, in api_passport_info
+    print(mrz)
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u20ac' in position 13: ordinal not in range(256)
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/germany-passport.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/poland-passport.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/x5BFb0MLILgY1XpcpuV1kdpLDZ3d0Pa3LOyqetfB.png
+saving /home/flskAI/id-info-extractor/uploads/qAPv0jErS6FB8qadJ3AX2ebSVzqrkEGCHMV1UmkH.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/Ivke7sWPFPF8gu1pC4O8sPM6eOgnyihTIrB7mg1m.jpg
+saving /home/flskAI/id-info-extractor/uploads/Q3eHc5oU1CpCgKlV1Q6S2JrjthyIih4c9VAZNnXY.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/qnHj2PzLJGz8szGig2VT7kllqOgNm4wrq7Yws1rh.png
+saving /home/flskAI/id-info-extractor/uploads/FadeIakVSc4qz4vV5qkkGkpTPgj0V0ZfrAUDzlMa.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/qamARjsQc3wRmtj8Fr6GP3K7wFjOWHpFDZrOUXnD.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/7lRBRsekP0KfPD8Qf0U57TkNWgiWN8ZeR1VXcIan.jpg
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/pZAj0Sb5xppPcGcznjEzC1c7YZHL9e54Izpin6nD.png
+saving /home/flskAI/id-info-extractor/uploads/JmFefWnOZEnjdG7LpuTQnXzgUFvtxEHT2L2v3Tkm.png
+/home/flskAI/id-info-extractor
+/home/flskAI/id-info-extractor/uploads/
+saving /home/flskAI/id-info-extractor/uploads/9GlnqumYF1msIMveybHOTdVm5xPot0pjnreBMC3T.jpg
